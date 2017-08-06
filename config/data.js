@@ -22,6 +22,19 @@
 // ***********************************************************
 
 let dataConfig = {
+	 "m12": {
+        "metric": "12",
+        "category": "test",
+        "title": "Var1",
+        "type": "sum"
+    },
+    
+    "m2": {
+        "metric": "2",
+        "category": "test",
+        "title": "var2",
+        "type": "sum"
+    },
   
     "m101": {
         "metric": "101",
@@ -30,20 +43,13 @@ let dataConfig = {
         "title": "Population",
         "type": "sum"
     },
-	 "m301": {
-        "metric": "301",
-        "category": "Education",
-        "label": "High School Grad",
-        "title": "Population over 25 where Highest Degree attained is High School Grad",
-        "type": "sum"
-    },
 	"m202": {
         "metric": "202",
         "category": "Economics",
         "label": "People",
         "title": "People Living Below Poverty Line",
         "type": "sum"
-    },
+    }
 };
 
 module.exports = dataConfig;
