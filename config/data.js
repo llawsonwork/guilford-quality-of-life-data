@@ -29,7 +29,21 @@ let dataConfig = {
         "label": "People",
         "title": "Population",
         "type": "sum"
-    }
+    },
+	 "m301": {
+        "metric": "301",
+        "category": "Education",
+        "label": "High School Grad",
+        "title": "Population over 25 where Highest Degree attained is High School Grad",
+        "type": "sum"
+    },
+	"m202": {
+        "metric": "202",
+        "category": "Economics",
+        "label": "People",
+        "title": "People Living Below Poverty Line",
+        "type": "sum"
+    },
 };
 
 module.exports = dataConfig;
