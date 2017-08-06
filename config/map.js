@@ -25,11 +25,11 @@
 
 
 let mapConfig = {
-    style: "./style/positron-mecklenburg.json",
+	style: "./style/osm-liberty.json",
     zoomEmbed: 9.5,
     zoom: 9.3,
-    centerEmbed: [-80.815,35.31],
-    center: [-80.84, 35.26],
+    centerEmbed: [-79.8,36.00],
+    center: [-79.8,36.00],
     maxBounds: [[-82.641, 34.115],[-79.008, 36.762]],
     minZoom: 8,
     preserveDrawingBuffer: navigator.userAgent.toLowerCase().indexOf('firefox') > -1,  // fix for Firefox print
