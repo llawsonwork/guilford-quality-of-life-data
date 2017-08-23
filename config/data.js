@@ -43,11 +43,70 @@ let dataConfig = {
         "title": "Population",
         "type": "sum"
     },
+	"m102": {
+        "metric": "102",
+        "category": "Demographics",
+        "label": "People",
+        "title": "Percent of Population White",
+		"suffix": "%",
+        "type": "mean"
+    },
+	"m103": {
+        "metric": "103",
+        "category": "Demographics",
+        "label": "People",
+        "title": "Percent of Population Black",
+		"suffix": "%",
+        "type": "mean"
+    },
+	"m201": {
+        "metric": "201",
+        "category": "Economics",
+        "label": "Dollars",
+        "title": "Median Household Income",
+        "type": "mean",
+		"prefix": "$"
+    },
 	"m202": {
         "metric": "202",
         "category": "Economics",
         "label": "People",
         "title": "People Living Below Poverty Line",
+        "type": "sum"
+    },
+	"m301": {
+        "metric": "301",
+        "category": "Education",
+        "label": "People",
+        "title": "High School Graduates",
+        "type": "sum"
+    },
+	"m302": {
+        "metric": "302",
+        "category": "Education",
+        "label": "People",
+        "title": "Some College",
+        "type": "sum"
+    },
+	"m303": {
+        "metric": "303",
+        "category": "Education",
+        "label": "People",
+        "title": "Associates Degree",
+        "type": "sum"
+    },
+	"m304": {
+        "metric": "304",
+        "category": "Education",
+        "label": "People",
+        "title": "Bachelors Degree",
+        "type": "sum"
+    },
+	"m305": {
+        "metric": "305",
+        "category": "Education",
+        "label": "People",
+        "title": "Graduate Degrees",
         "type": "sum"
     }
 };
